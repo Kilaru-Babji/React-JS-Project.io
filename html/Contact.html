@@ -1,0 +1,110 @@
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" type="text/css" href="../style/ContactStyle.css">
+	</head>
+	
+	<body>
+		<header>
+			<nav>
+				<div class ="logo"><h1 class = "animated infinite heartBeat"> Travels</div>
+				<div class = "menu">
+					<ul> 
+						<li><a href="../index.html">Home</a></li>
+						<li><a href="#">Packages</a></li>
+						<li><a href="../html/Gallery.html">Gallery</a></li>
+						<li><a href="../html/Register.html">Register</a></li>
+						<li><a href="../html/Contact.html">Contact</a></li>
+						<li><a href="../html/About.html">About</a></li>
+					</ul>
+				</div>
+			</nav>
+		</header>
+		
+		<main>
+		<div class="contact-title">
+			<h1>Contact Us</h1>
+			<h2>We are always ready to serve you!</h2>
+		</div>
+		
+		<div class="contact-form">
+			<form id="contact-form" method="post" action="../php/contact_php.php">
+				<input name="name" type="text" class="form-control input" placeholder="Your Name" required><br>
+				<input name="email" type="email" class="form-control input" placeholder="Your Email" required><br>
+				<input type="tel" name="phone" class="form-control input" placeholder="Phone Number" required><br>
+				<input name="gender" type="text" class="form-control input" placeholder="Male/Female" required><br>
+				<textarea name="message" class="form-control" placeholder="Message" rows="4" required></textarea></br>
+				
+				<input type="submit" class="form-control submit" value="SEND MESSAGE">
+			</form>
+		</div>
+		</main>
+		
+		<footer>
+			<div class="main-content">
+				<div class="left box">
+					<h2>About us</h2>
+					<div class="content">
+						<p>Travel Websites help you craft a perfect vacation or a dream holiday!. 
+						Were you can book your flights, hotels, cruises, vacation packages, 
+						customize your vacation and even get honest traveller reviews about the 
+						place. That you can easily get all the information related to tour and 
+						easily asked travel-related queries. A brief summary of the area, with 
+						highlights of important places. Hotel recommendations with web links to hotel 
+						and booking sites. Information about recreation and outdoor activities.</p>
+
+						<div class="social">
+							<a href="#"><span class="fab fa-facebook-f"></span></a>
+							<a href="#"><span class="fab fa-twitter"></span></a>
+							<a href="#"><span class="fab fa-instagram"></span></a>
+							<a href="#"><span class="fab fa-youtube"></span></a>
+						</div>
+					</div>
+				</div>
+	
+				<div class="center box">
+					<h2>Address</h2>
+					<div class="content">
+						<div class="place">
+							<span class="fas fa-map-marker-alt"></span>
+							<span class="text">Amaravati, Andhra Pradesh</span>
+						</div>
+						<div class="phone">
+							<span class="fas fa-phone-alt"></span>
+							<span class="text">+91-7995772323</span>
+						</div>
+						<div class="email">
+							<span class="fas fa-envelope"></span>
+							<span class="text">kilaru_babji@srmap.edu.in</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="right box">
+					<h2>Contact us</h2>
+					<div class="content">
+						<form action="#">
+							<div class="email">
+								<div class="text">Email *</div>
+								<input type="email" required>
+							</div>
+							<div class="msg">
+								<div class="text">Message *</div>
+								<textarea rows="2" cols="25" required></textarea>
+							</div>
+							<div class="btn">
+								<button type="submit">send</button>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+			<div class="bottom">
+				<center>
+					<span class="credit">Created By <a href="#">Travels</a></span>
+				</center>
+			</div>
+		</footer>
+	</body>
+	
+</html>

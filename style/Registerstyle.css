@@ -1,0 +1,176 @@
+*{
+margin : 0;
+padding : 0;
+box-sizing: border-box;
+font-family: 'josefin sans', sans-serif;
+}
+
+header
+{
+width:100%;
+height:100vh;
+background-image :linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)), url('../img/main.webp');
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+nav
+{
+width: 100%;
+height: 15vh;
+background : rgba(0,0,0,0.5);
+color:white;
+display: flex;
+justify-content: space-between;
+align-items: center;
+text-transform: uppercase;
+}
+
+nav .logo
+{
+width:25%;
+text-align: center;
+}
+
+nav .menu
+{
+float: right;
+margin-top: 30px;
+}
+
+nav .menu li
+{
+display : inline-block;
+list-style: none;
+margin-left: 40px;
+margin-right: 20px;
+}
+
+nav .menu a
+{
+padding: 5px 0px;
+width : 25%;
+text-decoration: none;
+color: white;
+font-weight: bold;
+}
+
+nav .menu a:hover
+{
+border-bottom: 2px solid #EC50BC;
+}
+
+main
+{
+width:100%;
+height:85vh;
+display: flex;
+justify-content: center;
+align-items:center;
+text-align: center;
+}
+
+section h3
+{
+font-variant: small-caps;
+color : white;
+font-size: 35px;
+font-weight: 200;
+letter-spacing: 4px;
+text-shadow : 2px 2px 3px black;
+}
+
+.colorchange
+{
+animation: colorchangetravels 1s infinite;
+}
+
+@keyframes colorchangetravels
+{
+0%{color: red;}
+25%{color: blue;}
+50%{color: green;}
+75%{color: yellow;}
+100%{color: pink;}
+}
+
+section h1
+{
+color : blue;
+margin : 30px 0 20px 0;
+font-size : 55px;
+font-weight: 700;
+text-shadow: 2px 1px 5px black;
+text-transform: uppercase;
+}
+
+.change:after
+{
+content: '';
+color: red;
+animation: changetext 15s infinite linear;
+}
+
+@keyframes changetext
+{
+0%{content:"Agra";}
+10%{content:"Delhi";}
+20%{content:"Lucknow";}
+30%{content:"Varanasi";}
+40%{content:"Kedarnath";}
+50%{content:"Badrinath";}
+60%{content:"Jaipur";}
+70%{content:"Haridwar";}
+80%{content:"Goa";}
+90%{content:"Nainital";}
+100%{content:"Simla";}
+}
+
+section p
+{
+font-size: 20px;
+color : #8E44AD;
+word-spacing : 2px;
+text-shadow: 1px 1px 1px black;
+}
+
+.ptwo
+{
+margin-bottom: 30px;
+}
+
+section a
+{
+padding : 12px 30px;
+border-radius: 4px;
+outline: none;
+text-transform: uppercase;
+font-size : 13px;
+font-weight : 500;
+text-decoration: none;
+letter-spacing: 1px;
+}
+
+section .btnone
+{
+background : #fff;
+color : #000;
+font-weight: bold;
+}
+
+section .btnone:hover
+{
+background-color: #bf55ec;
+}
+
+section .btntwo
+{
+background : #00b894;
+color : white;
+font-weight: bold;
+}
+
+section .btntwo:hover
+{
+background-color: #bf55ec;
+}
